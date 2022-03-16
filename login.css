@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700&display=swap');
+*{
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+  height:100vh;
+  width:100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow:hidden;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:rgb(247, 240, 242);
+  background:#faf8f8;
+  
+  
+}
+.login-div {
+  width:430px;
+  height:600px;
+  border-radius:50px;
+  padding: 60px 35px 35px 35px;
+ border-radius: 33px;
+background: #f3f0f1;
+box-shadow:  5px 5px 10px #ee5e73,
+             -5px -5px 10px #ae7075;
+}
+.logo {
+  width:100px;
+  height:100px;
+  background: url("https://cdn.dribbble.com/users/24078/screenshots/15522433/media/e92e58ec9d338a234945ae3d3ffd5be3.jpg?compress=1&resize=100x120");
+  border-radius:90%;
+  margin:0 auto;
+border-radius: 50%;
+box-shadow:  5px 5px 10px #fcf9fa,
+             -5px -5px 10px #cccbcb;
+}
+
+.title {
+  text-align:center;
+  font-size: 29px;
+  padding-top:24px;
+  letter-spacing:0.5px;
+  color: rgb(201, 49, 69);
+  
+}
+.sub-title {
+  text-align:center;
+  font-size:15px;
+  padding-top:7px;
+  letter-spacing:3px;
+  color: rgb(206, 50, 50);
+}
+.fields {
+  padding:75px 5px 5px 5px;
+  width:100%;
+  border-radius: 33px;
+}
+  
+.fields input {
+  border:none;
+  outline:none;
+  background:none;
+  font-size:18px;
+  padding:20px 10px 20px 5px;
+
+  
+}
+.username,
+.password {
+  margin-bottom:30px;
+  border-radius:25px;
+  border-radius: 33px;
+  background: #be133e;
+  box-shadow:  10px 10px 20px #ee5e73,
+             -10px -10px 20px #ae7075;
+    text-color: White;
+
+}
+.fields svg {
+  height:25px;
+  margin:0 10px -3px 25px;
+}
+.signing-button {
+  border:none;
+  cursor:pointer;
+  outline:none;
+  height:60px;
+  width:100%;
+  font-size:20px;
+  border-radius:30px;
+  font-weight:700;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align:center;
+background: linear-gradient(145deg, #080808e8, #149761);
+
+  transition: all 0.5s ;
+}
+.signing-button:hover {
+  background-color:#4acead;
+}
+.signing-button:active {
+  background-color: #88ef9e;
+}
+.link {
+  padding-top:20px;
+  text-align:center;
+}
+.link a {
+  text-decoration:none;
+  color:rgb(247, 240, 240);
+  font-size:15px;
+}
